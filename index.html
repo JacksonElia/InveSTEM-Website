@@ -5,13 +5,51 @@
   <title>InveSTEM</title>
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/slideshow.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="icon" type="image/jpeg" href="images/InveSTEM-Logo.jpeg">
 </head>
 <body>
 
+<header>
 
+</header>
+
+<section class="greeting-section">
+
+  <div id="greeting-container">
+
+<!--    <h1>Investing in Our Youth.</h1>-->
+
+    <div id="slideshow-container">
+      <button class="slideshow-button" id="left-slideshow-button" onclick="scrollToLeft()">
+        <i class="icon ion-chevron-left"></i>
+      </button>
+      <button class="slideshow-button" id="right-slideshow-button" onclick="scrollToRight()">
+        <i class="icon ion-chevron-right"></i>
+      </button>
+      <div id="slideshow">
+        <img id="0" class="slideshow-image" alt="slideshow image" src="images/dummyimg.png" style="width: 100%">
+        <img id="1" class="slideshow-image" alt="slideshow image" src="images/dummyimg.png" style="width: 100%">
+        <img id="2" class="slideshow-image" alt="slideshow image" src="images/dummyimg.png" style="width: 100%">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="mission-statement-section">
+
+</section>
+
+<footer>
+
+</footer>
 
 <!-- Scripts -->
+<script src="scripts/slideshow.js"></script>
 
 </body>
 </html>
