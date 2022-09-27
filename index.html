@@ -5,23 +5,39 @@
   <title>InveSTEM</title>
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/header.css">
   <link rel="stylesheet" type="text/css" href="styles/slideshow.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="icon" type="image/jpeg" href="images/InveSTEM-Logo.jpeg">
+  <link rel="icon" type="image/jpeg" href="images/InveSTEM-Logo-Text.jpeg">
 </head>
 <body>
 
 <header>
-
+  <div id="header-container">
+    <a href="index.html" id="logo"><img src="images/InveSTEM-Logo.jpeg" alt="Logo made by Jessica"></a>
+    <input id="main-nav-toggle" type="checkbox"/>
+    <label class="main-nav-button-container" for="main-nav-toggle">
+      <div class="main-nav-button" id="top-nav-button"></div>
+      <div class="main-nav-button" id="mid-nav-button"></div>
+      <div class="main-nav-button" id="bot-nav-button"></div>
+    </label>
+    <ul id="main-nav-list">
+      <li class="main-nav-item main-nav-item-normal"><a href="index.html">Home</a></li>
+      <li class="main-nav-item main-nav-item-normal"><a href="#">About</a></li>
+      <li class="main-nav-item main-nav-item-normal"><a href="#">Contact</a></li>
+      <li class="main-nav-item main-nav-item-button"><div class="nav-button"><a href="#">Donate</a></div></li>
+    </ul>
+    <div id="header-background"></div>
+  </div>
 </header>
 
 <section class="greeting-section">
 
   <div id="greeting-container">
 
-<!--    <h1>Investing in Our Youth.</h1>-->
+    <h1><span>Invest</span>ing in Our Youth.</h1>
 
     <div id="slideshow-container">
       <button class="slideshow-button" id="left-slideshow-button" onclick="scrollToLeft()">
@@ -41,7 +57,7 @@
 </section>
 
 <section class="mission-statement-section">
-
+  <h1>Inve<span>Stem</span></h1>
 </section>
 
 <footer>

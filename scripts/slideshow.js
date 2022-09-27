@@ -22,9 +22,9 @@ function scrollToLeft() {
 }
 
 function matrixTextMainLoop() {
-  if (document.documentElement.scrollTop < 15) {
+  if (document.documentElement.scrollTop < 30) {
     frameKeep++;
-    if (frameKeep % 240 === 0) {
+    if (frameKeep % 280 === 0) {
       scrollToRight()
       frameKeep = 0;
     }
