@@ -54,7 +54,7 @@
   padding: 5px 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .main-nav-item-normal a:before{
@@ -66,7 +66,7 @@
   left: 0;
   width: 0;
   height: 3px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .main-nav-item-normal a:hover {
@@ -75,9 +75,6 @@
 
 .main-nav-item-normal a:hover::before{
   width: 100%;
-}
-
-.main-nav-item-button {
 }
 
 .main-nav-item-button {

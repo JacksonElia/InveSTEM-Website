@@ -11,12 +11,26 @@ html, body {
   margin: auto;
   font-family: var(--mainFont);
   background-color: var(--mainColor);
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 h1 {
   font-weight: 700;
   font-size: 6vw;
   color: white;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 4vw;
+  color: var(--themeColor);
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.8vw;
+  color: var(--fontColor);
 }
 
 h1 span {
@@ -29,6 +43,7 @@ h1 span {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  scroll-snap-align: center;
 }
 
 #greeting-container {
@@ -46,10 +61,30 @@ h1 span {
   text-align: center;
 }
 
-h1 {
+.mission-statement-section {
+  height: 100vh ;
+  scroll-snap-align: center;
+}
+
+#mission-statement-container {
+  padding: 10%;
   text-align: center;
 }
 
-.mission-statement-section {
-  height: 100vh ;
+.get-involved-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  scroll-snap-align: center;
+}
+
+#get-involved-container {
+  padding: 10%;
+  text-align: center;
+}
+
+#get-involved-container .button1 {
+  margin: auto;
 }

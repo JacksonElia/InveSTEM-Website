@@ -1,0 +1,19 @@
+.button1-container {
+  display: flex;
+  align-items: center;
+}
+
+.button1 {
+  border: 1px solid var(--themeColor);
+  display: flex;
+  align-items: center;
+  transition: .7s;
+  color: var(--fontColor);
+  text-align: center;
+  padding: 1vw 2vw;
+}
+
+.button1:hover {
+  background: var(--themeColor);
+  color: var(--mainColor);
+}
