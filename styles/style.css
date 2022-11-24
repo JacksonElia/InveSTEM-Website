@@ -34,6 +34,16 @@ p {
   color: var(--fontColor);
 }
 
+.url {
+  color: var(--themeColor);
+  text-decoration: underline;
+  transition: .5s;
+}
+
+.url:hover {
+  filter: brightness(1.2);
+}
+
 h1 span {
   color: var(--themeColor);
 }

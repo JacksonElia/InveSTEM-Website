@@ -23,11 +23,6 @@ footer {
   align-items: flex-start;
 }
 
-.footer-container a {
-  color: var(--themeColor);
-  text-decoration: underline;
-}
-
 .footer-container p {
   margin: 0;
 }
