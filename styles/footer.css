@@ -7,7 +7,7 @@ footer {
   padding: 4% 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10%;
+  gap: 8%;
 }
 
 .footer-container img {
