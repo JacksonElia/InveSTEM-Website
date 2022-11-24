@@ -7,7 +7,7 @@
   position: absolute;
   width: 100%;
   z-index: 3;
-  background-color: var(--mainColor);
+  background-color: var(--secondaryColor);
   box-sizing: border-box;
   font-family: var(--mainFont);
   font-size: 1.4vw;

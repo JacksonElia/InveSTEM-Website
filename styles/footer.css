@@ -1,0 +1,33 @@
+footer {
+  scroll-snap-align: center;
+  background: var(--secondaryColor);
+}
+
+.footer-container {
+  padding: 4% 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+}
+
+.footer-container img {
+  width: 100%;
+}
+
+.footer-inner {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-container a {
+  color: var(--themeColor);
+  text-decoration: underline;
+}
+
+.footer-container p {
+  margin: 0;
+}
