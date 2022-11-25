@@ -10,7 +10,7 @@
   background-color: var(--secondaryColor);
   box-sizing: border-box;
   font-family: var(--mainFont);
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 }
 
 #logo {
@@ -99,10 +99,9 @@
 
 .nav-button:hover {
   background: var(--themeColor);
-  color: var(--mainColor);
 }
 
-.nav-button a:hover {
+.nav-button:hover a {
   color: var(--mainColor);
 }
 
