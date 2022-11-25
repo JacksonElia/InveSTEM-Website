@@ -32,8 +32,9 @@ h2 {
 }
 
 h3 {
-  color: var(--fontColor);
-  font-size: 4vw  ;
+  color: var(--themeColor);
+  font-size: 4vw;
+
 }
 
 p {
