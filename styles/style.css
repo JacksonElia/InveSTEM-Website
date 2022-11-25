@@ -12,6 +12,9 @@ html, body {
   margin: auto;
   font-family: var(--mainFont);
   background-color: var(--mainColor);
+}
+
+.home {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
@@ -26,6 +29,11 @@ h2 {
   font-weight: 700;
   font-size: 4vw;
   color: var(--themeColor);
+}
+
+h3 {
+  color: var(--fontColor);
+  font-size: 4vw  ;
 }
 
 p {
@@ -126,4 +134,30 @@ h1 span {
 
 #get-involved-container .button1 {
   margin: auto;
+}
+
+.page-section {
+  padding: 8% 12%;
+  text-align: center;
+}
+
+.page-section h1 {
+  font-size: 8vw;
+  color: var(--themeColor);
+  margin: 4% 0;
+}
+
+.text-image-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4%;
+  text-align: left;
+}
+
+.text-image-container img {
+  width: 100%;
+}
+
+.text-container {
+  text-align: left;
 }
