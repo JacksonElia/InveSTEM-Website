@@ -1,6 +1,7 @@
 .button1-container {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .button1 {
@@ -11,6 +12,7 @@
   color: var(--fontColor);
   text-align: center;
   padding: 1vw 2vw;
+  text-decoration: none;
 }
 
 .button1:hover {

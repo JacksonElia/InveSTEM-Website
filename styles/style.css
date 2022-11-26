@@ -119,7 +119,7 @@ h1 span {
   text-align: center;
 }
 
-.get-involved-section {
+.text-button-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,12 +128,12 @@ h1 span {
   scroll-snap-align: center;
 }
 
-#get-involved-container {
+.text-button-container {
   padding: 10%;
   text-align: center;
 }
 
-#get-involved-container .button1 {
+.text-button-container .button1 {
   margin: auto;
 }
 
